@@ -17,11 +17,9 @@ Just a header file. Copy it to your project.
 
 ### Requirements
 
-- C++ Modules Support (`C++20` or later)  
-	<sub><sup>if you are using `#include`</sup></sub>
-
-- C++ Standard Library Modules Support (`C++23` or later)  
-	<sub><sup>if you are using `import;`</sup></sub>
+- `C++20` or later
+  - Modules & Concepts Support
+  - constexpr Destructor
 
 ## API
 
