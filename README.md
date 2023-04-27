@@ -5,7 +5,7 @@
  This is `Monad`, a C++ module that provides some monadic interfaces for C++.
 
  *`Monad`* is *a concept in functional programming*. It is a design pattern that allows structuring programs generically while automating away boilerplate code needed by the program logic. ==*Monads* achieve this by providing their own data type, which represents a specific form of computation, along with one procedure to wrap values of any basic type within the monad (yielding a monadic value) and another to compose functions that output monadic values (called monadic functions)==.  
-<sub><sup><sup>from [Wikipedia](https://en.wikipedia.org/wiki/Monad_(functional_programming))</sup></sup></sub>
+<sub><sup>from [Wikipedia](https://en.wikipedia.org/wiki/Monad_(functional_programming))</sup></sub>
 
  `Monad` can forward its internal state to the next function flawlessly. It is very useful in functional programming. Because they are pure functions so are capable of stateless, pure functions, no side effects.
 
@@ -18,10 +18,10 @@ Just a header file. Copy it to your project.
 ### Requirements
 
 - C++ Modules Support (`C++20` or later)  
-	<sub><sup><sup>if you are using `#include`</sup></sup></sub>
+	<sub><sup>if you are using `#include`</sup></sub>
 
 - C++ Standard Library Modules Support (`C++23` or later)  
-	<sub><sup><sup>if you are using `import;`</sup></sup></sub>
+	<sub><sup>if you are using `import;`</sup></sub>
 
 ## API
 
