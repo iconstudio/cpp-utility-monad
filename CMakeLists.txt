@@ -1,4 +1,4 @@
-﻿cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required (VERSION 3.8)
 
 if (POLICY CMP0141)
   cmake_policy(SET CMP0141 NEW)
@@ -6,9 +6,7 @@ if (POLICY CMP0141)
 endif()
 
 project ("utility-monad")
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable (utility-monad "src/utility-monad-tester.cpp" "src/utility-monad-tester.hpp" "src/utility-monadic.ixx")
-
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET utility-monad PROPERTY CXX_STANDARD 20)
-endif()
