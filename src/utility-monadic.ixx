@@ -673,7 +673,7 @@ export namespace util
 		constexpr ~Monad() noexcept(std::is_nothrow_destructible_v<T>) = default;
 
 	private:
-		T myValue;
+		T myValue = {};
 		bool hasValue = false;
 	};
 
